@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:vivid
 
 RUN apt-get update && apt-get install -y openjdk-8-jre wget git curl zip net-tools && rm -rf /var/lib/apt/lists/*
 
